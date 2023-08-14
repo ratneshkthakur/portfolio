@@ -67,6 +67,10 @@ section{
     justify-content: center;
     align-items: center;
 }
+.home-img{
+    background-image: url("assets/images/hero_mask.svg");
+    width: 35vw;
+}
 .home-img img{
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
@@ -200,7 +204,7 @@ span{
     font-size: 1.9rem;
 }
 .services-box p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 1rem 0 3rem;
 }
 .portfolio{
@@ -250,7 +254,7 @@ span{
 }
 
 .portfolio-layer h4{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .portfolio-layer p{
     font-size: 1.6rem;
