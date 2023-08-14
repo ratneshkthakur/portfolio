@@ -69,6 +69,7 @@ section{
 }
 .home-img{
     background-image: url("assets/images/hero_mask.svg");
+    background-repeat: no-repeat;
     width: 35vw;
 }
 .home-img img{
