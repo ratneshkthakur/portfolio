@@ -308,6 +308,30 @@ span{
     margin-top: 2rem;
     cursor: pointer;
 }
+/* Personal Section Design */
+
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem 9%;
+    background: var(--second-bg-color);
+}
+.personal-details-social{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.personal-details img{
+    width: 4rem;
+    height: auto;
+}
+
 /* Footer Section Design */
 .footer{
     display: flex;
@@ -315,7 +339,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .footer-text p{
     font-size: 1.6rem;
